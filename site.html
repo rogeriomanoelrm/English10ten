@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .english10ten {
+            border-style: solid;
+            border-width: 5%;
+            border-color: rgb(228, 228, 220);
+            background-color: rgb(1, 1, 19);
+            border-radius: 5px;
+            border-top: 10%;
+        }
+
+
+        .logo {
+            background-image: url(american-flag-yougov-nbclx-poll.jpeg);
+            margin: -0.5%;
+            margin-bottom: -1%;
+        }
+
+        .text {
+            animation-name: color-change;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+
+        @keyframes color-change {
+            0% {
+                color: rgb(231, 225, 225);
+            }
+
+            50% {
+                color: rgb(121, 121, 204);
+            }
+
+            100% {
+                color: rgb(236, 138, 240);
+            }
+        }
+
+        .div2 {
+
+            color: whitesmoke;
+            background-color: rgb(15, 1, 1);
+            margin-top: 50px;
+            display: flex;
+            margin-left: 2px;
+            margin-bottom: 5%;
+            padding-left: 5px;
+        }
+
+        body {
+            background-color: rgb(15, 1, 1);
+        }
+
+        .video {
+            border-radius: 7px;
+            animation: pulsing 2s infinite;
+            transition: width 2s, height 2s, transform 2s;
+            float: right;
+            margin-top: 0px;
+            width: 400px;
+            height: 200px;
+            padding-left: 50;
+            margin-left: 20%;
+        }
+
+        h2 {
+            color: aqua;
+        }
+
+
+
+        @keyframes pulsing {
+            0% {
+                box-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+            }
+
+            50% {
+                box-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 50px #ff0, 0 0 60px #ff0, 0 0 70px #ff0;
+            }
+
+            100% {
+                box-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="logo">
+        <img class="english10ten" src="LogoMakr-3kUwnC.png" alt="">
+    </div>
+
+    <div class="div2">
+
+        <h2 class="text">
+            English10ten Online. <br> Aprenda Inglês once and for all! <br> Aulas online ou presencial. <br>
+            Com a English10ten você se torna um Bilíngue. <br>
+            Estude inglês através de conversação sobre sua vida.
+        </h2>
+
+        <video controls class="video" src="video.mp4" type="video/mp4" autoplay muted></video>
+
+    </div>
+
+
+
+    <hr color="aqua">
+
+</body>
+
+</html>
